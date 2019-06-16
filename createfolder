@@ -1,0 +1,7 @@
+#To make multiple folders in Windows through commandline
+#These steps will make 50 folders
+Step 1 : Open commandline
+Step 2 : Choose the place where ever you want to make files/directories
+Step 3 : Here the directories are made on desktop (cd Desktop)
+Step 4 : for /L %i in (1,1,50) do (mkdir %i)
+50 folders will be made through this.
