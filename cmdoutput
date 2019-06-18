@@ -1,0 +1,10 @@
+#Run a command and output should be on terminal as well as in a file
+#2 Methods:
+	Method 1: date | tee File.txt
+
+	Method 2: FILENAME='./File.txt'
+		  while read Temp; do
+			$Temp
+			$Temp >> $FILENAME
+		  done
+		
